@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch | Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <main class="main">
+        <div class="main-title">
+            <h1> Etch-a-Sketch </h1>
+        </div>
+        
+        <div class="main-buttons">
+            <button onclick="toBlackColor()"> Black </button>
+            <button onclick="toRandomColor()"> Pretty Colors </button>
+            <button onclick="toWhiteColor()"> Eraser </button>
+            <button onclick="clearGrid()"> Clear </button>
+            <button onclick="setGridSize()"> Grid size </button>
+        
+        </div>
+        
+        <div class="main-text">
+            <p id="txt"> Current grid size: 16 x 16 </p>
+        </div>
+        
+        <div class="main-grid"></div>
+    </main>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
